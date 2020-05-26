@@ -8,6 +8,7 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="core/Style/MainStyle.css">
+        <link rel="stylesheet" href="core/Style/Corusel.css">
     </head>
 
     <body>
@@ -24,24 +25,95 @@
                             <a href="#" class="nav-link">Главная</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Про нас</a>
+                            <a href="#" class="nav-link">Поиск</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Контакты</a>
+                            <a href="#" class="nav-link">Каталог</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Сервисы</a>
+                            <a href="#" class="nav-link">Регистрация</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Команда</a>
+                            <a href="#" class="nav-link">Вход</a>
                         </li>
                     </ul>
 
                 </div>
             </div>
         </nav>
+        <div class="slider">
+            <div class="slider__wrapper">
+                <div class="slider__item">
+                    <div style="height: 250px; background: orange;">1</div>
+                </div>
+                <div class="slider__item">
+                    <div style="height: 250px; background: green;">2</div>
+                </div>
+                <div class="slider__item">
+                    <div style="height: 250px; background: violet;">3</div>
+                </div>
+                <div class="slider__item">
+                    <div style="height: 250px; background: coral;">4</div>
+                </div>
+            </div>
+            <a class="slider__control slider__control_left" href="#" role="button"></a>
+            <a class="slider__control slider__control_right" href="#" role="button"></a>
+        </div>
 
-
+        <div class="article_prime">
+            <div id="mainNav">
+                <ul>
+                    <h3>Разделы</h3>
+                    <li><button>Steam</button></li>
+                    <li><button>Origin</button></li>
+                    <li><button>Uplay</button></li>
+                    <li><button>Battle.net</button></li>
+                </ul>
+                <ul>
+                    <h3>Жанры</h3>
+                    <li><button>Экшен</button></li>
+                    <li><button>Шутеры</button></li>
+                    <li><button>Инди</button></li>
+                    <li><button>Стратегии</button></li>
+                    <li><button>Приключения</button></li>
+                    <li><button>Хоррор</button></li>
+                    <li><button>Казуальные</button></li>
+                    <li><button>Ролевые</button></li>
+                    <li><button>Аркады</button></li>
+                    <li><button>Выживание</button></li>
+                </ul>
+                <ul>
+                    <h3>Категории</h3>
+                    <li><button>Одиночные</button></li>
+                    <li><button>Кооперативные</button></li>
+                    <li><button>Мультиплеерные</button></li>
+                    <li><button>Контроллер</button></li>
+                    <li><button>Ранний доступ</button></li>
+                </ul>
+                <ul>
+                    <h3>Другое</h3>
+                    <li><button>Бесплатные игры</button></li>
+                    <li><button>Серии</button></li>
+                </ul>
+            </div>
+            <div id="secondNav">
+                <button class="ghost-button-transition">Каталог</button>
+                <button class="ghost-button-transition">Новые</button>
+                <button class="ghost-button-transition">Популярные</button>
+                <button class="ghost-button-transition">Ожидаемые</button>
+            </div>
+            <div id="mainArticle">
+                <div><button><img src="images/GTA_5.jpg" alt="">GTA 5</button></div>
+                <div><button><img src="images/Pubg.jpg" alt="">PLAYERUNKNOWN'S BATTLEGROUNDS</button></div>
+                <div><button><img src="images/dark-souls-3.jpg" alt="">Dark Souls 3</button></div>
+                <div><button><img src="images/Red_Dead_Redemtion2.jpg" alt="">Red Dead Redemption 2</button></div>
+                <div><button><img src="images/MortalKombat11.jpg" alt="">Mortal Kombat 11</button></div>
+                <div><button><img src="images/Mount_and_Blade%202.jpg" alt="">Mount & Blade 2</button></div>
+                <div><button><img src="images/Mafia%203.jpg" alt="">Mafia III</button></div>
+                <div><button><img src="images/SidMeiersCivilizationVI.jpg" alt="">SidMeiersCivilization VI</button></div>
+                <div><button><img src="images/Resident_Evil_3.jpg" alt="">Resident Evil 3</button></div>
+            </div>
 
     </body>
+    <script src="core/JavaScript/Corusel.js"></script>
 </html>
